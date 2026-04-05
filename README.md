@@ -1,11 +1,17 @@
-# Mayur Nikam Portfolio
+# Prathamesh Jagtap Portfolio
 
-Static portfolio website designed for GitHub Pages.
+A static portfolio website designed to be hosted directly on GitHub Pages.
+
+## Stack
+
+- HTML
+- CSS
+- Vanilla JavaScript
 
 ## Directory structure
 
 ```text
-mayur-portfolio/
+prathamesh-portfolio/
 ├── index.html
 ├── README.md
 └── assets/
@@ -16,18 +22,21 @@ mayur-portfolio/
     └── img/
 ```
 
-## GitHub Pages deploy
+## How to host on GitHub Pages
 
 1. Create a new GitHub repository.
-2. Upload all files from this folder.
-3. Keep `index.html` in the root.
-4. Go to **Settings > Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Select the `main` branch and `/root` folder.
-7. Save. Your site will be live in a minute or two.
+2. Upload all files from this folder to the root of the repository.
+3. Commit and push.
+4. Open **Settings → Pages**.
+5. Under **Build and deployment**, choose:
+   - **Source:** Deploy from a branch
+   - **Branch:** `main` (or your default branch)
+   - **Folder:** `/root`
+6. Save.
+7. GitHub will publish your site at your Pages URL.
 
-## Customization
+## Notes
 
-- Update contact links in `index.html`
-- Change colors in `assets/css/style.css`
-- Add project links/buttons where needed
+- No build tools or frameworks are required.
+- The design uses Google Fonts, so an internet connection is needed for the exact typography.
+- You can later add real project links, a PDF resume button, or personal photos without changing the structure.

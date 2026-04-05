@@ -3,262 +3,354 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mayur Nikam | Cloud & DevOps Portfolio</title>
     <meta
       name="description"
-      content="Portfolio of Mayur Nikam — aspiring Cloud and DevOps Engineer skilled in AWS, Kubernetes, Docker, Ansible, Linux, and automation."
+      content="Portfolio website for Prathamesh Dilip Jagtap — Agricultural Engineer focused on lean manufacturing, automation, inventory systems, and project leadership."
     />
+    <title>Prathamesh Jagtap | Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <div class="site-shell">
-      <header class="topbar">
-        <a class="brand" href="#home">MAYUR</a>
-        <nav class="nav" id="site-nav">
+    <div class="grain"></div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home">PRATHAMESH</a>
+        <nav class="site-nav" aria-label="Primary navigation">
           <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
           <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#research">Research</a>
           <a href="#contact">Contact</a>
         </nav>
-        <button class="menu-toggle" id="menu-toggle" aria-label="Open menu">
-          <span></span><span></span>
-        </button>
-      </header>
+      </div>
+    </header>
 
-      <main id="home">
-        <section class="hero grid-two">
+    <main id="home">
+      <section class="hero section">
+        <div class="container hero-grid">
           <div class="hero-copy reveal">
-            <p class="eyebrow">Cloud · DevOps · Automation</p>
+            <p class="eyebrow">Agricultural Engineer · Lean Manufacturing · Automation</p>
             <h1>
-              Hi, I am <span>Mayur Nikam</span>, building secure cloud systems with a calm,
-              engineering-first mindset.
+              Prathamesh
+              <span>Dilip Jagtap</span>
             </h1>
-            <p class="lede">
-              B.Tech in Artificial Intelligence and Data Science with hands-on experience in AWS,
-              Kubernetes, Docker, Linux, and Ansible-based automation.
+            <p class="lead">
+              Building efficient inventory systems, practical automation flows, and
+              process-led manufacturing operations with a strong bias for execution.
             </p>
+
             <div class="hero-actions">
-              <a class="btn btn-primary" href="#projects">See my work</a>
-              <a class="btn btn-secondary" href="mailto:mayurnikam266@gmail.com">Email me</a>
+              <a class="button primary" href="mailto:prathamesh.jagtap@gmail.com">Email me</a>
+              <a class="button ghost" href="#projects">View work</a>
             </div>
-            <div class="hero-links">
-              <a href="https://linkedin.com/in/mayur-nikam266" target="_blank" rel="noreferrer">LinkedIn</a>
-              <span>/</span>
-              <a href="https://github.com/mayurnikam266" target="_blank" rel="noreferrer">GitHub</a>
-              <span>/</span>
-              <a href="tel:+919096152945">Call</a>
-            </div>
-          </div>
 
-          <div class="hero-visual reveal delay-1" aria-hidden="true">
-            <div class="portrait-card portrait-main">
-              <div class="portrait-overlay"></div>
-              <div class="portrait-content">
-                <p>Cloud Engineer</p>
-                <h2>MN</h2>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="intro-strip grid-two" id="about">
-          <div class="reveal">
-            <p class="section-tag">— My background</p>
-            <p class="muted-copy">
-              I enjoy designing reliable infrastructure and turning manual operational work into
-              clean, repeatable automation. My focus is on AWS deployments, Linux systems,
-              infrastructure hardening, observability, and practical DevOps workflows.
-            </p>
-          </div>
-
-          <div class="reveal delay-1">
-            <p class="section-tag">— Strengths</p>
-            <ul class="skill-list compact">
-              <li>AWS infrastructure</li>
-              <li>Linux administration</li>
-              <li>Infrastructure automation</li>
-              <li>Container platforms</li>
-              <li>Networking fundamentals</li>
+            <ul class="contact-strip" aria-label="Quick contact details">
+              <li>Shirur, Pune</li>
+              <li><a href="tel:+919890806114">+91 9890806114</a></li>
+              <li><a href="mailto:prathamesh.jagtap@gmail.com">prathamesh.jagtap@gmail.com</a></li>
+              <li>
+                <a href="https://www.linkedin.com/in/prathamesh-jagtap-753776237/" target="_blank" rel="noreferrer">
+                  LinkedIn
+                </a>
+              </li>
             </ul>
           </div>
-        </section>
 
-        <section class="gallery-row reveal">
-          <article class="mini-card tilt-left">
-            <span class="mini-label">AWS</span>
-            <h3>Secure &amp; scalable setups</h3>
-          </article>
-          <article class="mini-card accent-card">
-            <span class="mini-label">Automation</span>
-            <h3>Ansible workflows that remove repetitive work</h3>
-          </article>
-          <article class="mini-card tilt-right">
-            <span class="mini-label">Containers</span>
-            <h3>Docker, Podman, Kubernetes</h3>
-          </article>
-        </section>
-
-        <section class="content-grid" id="skills">
-          <div class="left-rail reveal">
-            <p class="section-tag">— Technical skills</p>
-          </div>
-          <div class="right-content reveal delay-1">
-            <div class="skill-grid">
-              <article class="info-card">
-                <h3>Programming &amp; Scripting</h3>
-                <p>Python, Bash, SQL</p>
-              </article>
-              <article class="info-card">
-                <h3>Cloud Platforms</h3>
-                <p>AWS EC2, S3, CloudWatch, CloudTrail, IAM, EKS, RDS</p>
-              </article>
-              <article class="info-card">
-                <h3>DevOps Tooling</h3>
-                <p>Docker, Podman, Kubernetes, Ansible, Git, GitHub Actions, Jenkins basics</p>
-              </article>
-              <article class="info-card">
-                <h3>Operating Systems</h3>
-                <p>RHEL, Ubuntu, Windows</p>
-              </article>
-              <article class="info-card">
-                <h3>Networking</h3>
-                <p>TCP/IP, DNS, SSL/TLS</p>
-              </article>
-              <article class="info-card highlight-card">
-                <h3>Current direction</h3>
-                <p>Cloud security, platform reliability, observability, infrastructure as code</p>
-              </article>
+          <div class="hero-art reveal" aria-hidden="true">
+            <div class="portrait-card portrait-a">
+              <div class="portrait-label">Focused on</div>
+              <div class="portrait-text">Inventory discipline</div>
             </div>
-          </div>
-        </section>
-
-        <section class="content-grid" id="projects">
-          <div class="left-rail reveal">
-            <p class="section-tag">— Selected projects</p>
-          </div>
-          <div class="right-content stack reveal delay-1">
-            <article class="project-card">
-              <div class="project-meta">Ansible · AWS EC2 · Linux · YAML</div>
-              <h3>Automated EC2 Virtual Machine Health Monitoring System</h3>
+            <div class="portrait-card portrait-b">
+              <div class="monogram">PJ</div>
               <p>
-                Built an automated health monitoring workflow using Ansible Dynamic Inventory for
-                EC2 discovery in a dev environment. The system checked CPU, RAM, and disk health,
-                generated clean HTML reports, and reduced manual server validation effort.
+                Agricultural engineering with a practical edge in manufacturing,
+                plant operations, and warehouse optimization.
               </p>
-              <ul>
-                <li>Automated EC2 instance discovery using tags and dynamic inventory</li>
-                <li>Generated HTML health reports for CPU, memory, and disk usage</li>
-                <li>Enabled zero-manual routine checks for cloud instances</li>
-              </ul>
-            </article>
-
-            <article class="project-card">
-              <div class="project-meta">VPC · Bastion Host · NAT Gateway · WordPress</div>
-              <h3>AWS Secure Multi-Tier Deployment with Bastion Host and NAT Gateway</h3>
-              <p>
-                Designed a secure AWS architecture for a WordPress deployment using public and
-                private subnets, a bastion host for controlled SSH access, and a NAT gateway for
-                outbound access from private resources.
-              </p>
-              <ul>
-                <li>Deployed WordPress on EC2 with Apache and PHP</li>
-                <li>Hosted MariaDB in a private subnet without public exposure</li>
-                <li>Configured route tables, security groups, and network isolation carefully</li>
-              </ul>
-            </article>
-          </div>
-        </section>
-
-        <section class="content-grid" id="experience">
-          <div class="left-rail reveal">
-            <p class="section-tag">— Experience</p>
-          </div>
-          <div class="right-content reveal delay-1">
-            <article class="timeline-item">
-              <h3>Red Hat Academy Student Ambassador</h3>
-              <p class="timeline-sub">MIT Aurangabad · Feb 2024 – Dec 2025</p>
-              <p>
-                Represented Red Hat Academy on campus, promoted Linux and open-source learning,
-                guided peers with RHEL setup, and helped run technical sessions related to DevOps
-                tooling and containers.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <section class="content-grid" id="education">
-          <div class="left-rail reveal">
-            <p class="section-tag">— Education</p>
-          </div>
-          <div class="right-content stack reveal delay-1">
-            <article class="timeline-item">
-              <h3>Maharashtra Institute of Technology, Aurangabad</h3>
-              <p class="timeline-sub">B.Tech in AI &amp; Data Science · Graduation: 2026</p>
-              <p>CGPA: 8.45 / 10</p>
-            </article>
-            <article class="timeline-item">
-              <h3>Higher Secondary Certificate</h3>
-              <p class="timeline-sub">MH Board</p>
-              <p>80.83%</p>
-            </article>
-          </div>
-        </section>
-
-        <section class="content-grid" id="certifications">
-          <div class="left-rail reveal">
-            <p class="section-tag">— Certifications</p>
-          </div>
-          <div class="right-content reveal delay-1">
-            <div class="cert-grid">
-              <article class="info-card">
-                <h3>RHCSA</h3>
-                <p>ID: 240-042-069</p>
-                <span>Red Hat Academy</span>
-              </article>
-              <article class="info-card">
-                <h3>RHCE</h3>
-                <p>ID: 240-042-069</p>
-                <span>Red Hat Academy</span>
-              </article>
-              <article class="info-card">
-                <h3>PCAP - Python Certification Course</h3>
-                <p>ID: 2D145B7D775E-2DECCB8C357A-2D14554A6710</p>
-                <span>KodeKloud</span>
-              </article>
             </div>
+            <div class="portrait-card portrait-c"></div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section class="contact-card reveal" id="contact">
-          <div>
-            <p class="section-tag">— Let’s connect</p>
-            <h2>Available for cloud, DevOps, and infrastructure roles.</h2>
+      <section class="section intro-band" id="about">
+        <div class="container intro-grid">
+          <div class="section-title reveal">
+            <span class="line"></span>
+            <p>Profile</p>
+          </div>
+          <div class="intro-copy reveal">
             <p>
-              Based in Chhatrapati Sambhaji Nagar, Maharashtra, India. Open to internships,
-              entry-level cloud roles, and practical engineering collaborations.
+              Agricultural engineering professional with hands-on experience in
+              inventory management, manufacturing operations, project scheduling,
+              and automation-led improvements. Recent work includes reducing
+              assembly time by 30%, improving productivity by 20%, and expanding
+              storage capacity by 40% through layout and process redesign.
             </p>
           </div>
-          <div class="contact-links">
-            <a href="mailto:mayurnikam266@gmail.com">mayurnikam266@gmail.com</a>
-            <a href="tel:+919096152945">+91 9096152945</a>
-            <a href="https://linkedin.com/in/mayur-nikam266" target="_blank" rel="noreferrer">linkedin.com/in/mayur-nikam266</a>
-            <a href="https://github.com/mayurnikam266" target="_blank" rel="noreferrer">github.com/mayurnikam266</a>
+          <div class="intro-list reveal">
+            <h3>Core strengths</h3>
+            <ul>
+              <li>LEAN manufacturing</li>
+              <li>Inventory management</li>
+              <li>Project scheduling</li>
+              <li>Vendor coordination</li>
+              <li>Root cause analysis</li>
+              <li>Labour management</li>
+              <li>Process standardization</li>
+              <li>Automation thinking</li>
+            </ul>
           </div>
-        </section>
-      </main>
+        </div>
+      </section>
 
-      <footer class="footer">
-        <p>© <span id="year"></span> Mayur Nikam</p>
-        <p>Built as a static portfolio for GitHub Pages.</p>
-      </footer>
-    </div>
+      <section class="section metrics">
+        <div class="container metric-grid reveal">
+          <article class="metric-card">
+            <span class="metric-value">30%</span>
+            <p>assembly time reduction through automation</p>
+          </article>
+          <article class="metric-card">
+            <span class="metric-value">40%</span>
+            <p>increase in storage capacity after warehouse optimization</p>
+          </article>
+          <article class="metric-card">
+            <span class="metric-value">₹80K</span>
+            <p>annual savings from improved manufacturing process flow</p>
+          </article>
+          <article class="metric-card">
+            <span class="metric-value">₹2Cr</span>
+            <p>project valuation supported through DPR for biofertilizer work</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container split-section">
+          <div class="section-title reveal sticky-title">
+            <span class="line"></span>
+            <p>Experience</p>
+          </div>
+
+          <div class="timeline reveal">
+            <article class="timeline-item">
+              <div class="timeline-meta">06/2025 — Present · Chhatrapati Sambhajinagar</div>
+              <h3>Junior Manager Inventory</h3>
+              <h4>Ellora Natural Seeds Pvt Ltd</h4>
+              <ul>
+                <li>Led a team of 5 supervisors to implement manufacturing and inventory process improvements.</li>
+                <li>Reduced assembly time by 30% and delivered annual savings of about ₹80,000 through automation.</li>
+                <li>Introduced barcode tagging and improved accountability for seed inventory within 40 days.</li>
+                <li>Redesigned plant layout and increased productivity by 20% while improving storage capacity by 40%.</li>
+                <li>Oversaw sales return, physical seed stock, and biofertilizer division reporting to the Managing Director.</li>
+              </ul>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-meta">01/2025 — 06/2025 · Chhatrapati Sambhajinagar</div>
+              <h3>Intern, Inventory &amp; Automatization</h3>
+              <h4>Ellora Natural Seeds Pvt Ltd</h4>
+              <ul>
+                <li>Prepared DPR for Ellora Biofertilizer, contributing to a project valuation approved at ₹2,00,00,000.</li>
+                <li>Reviewed seed management processes to reduce loss and increase operational reliability.</li>
+                <li>Supported equipment upgrades that improved processing capacity by 25%.</li>
+                <li>Worked with vendors and management for faster procurement and ERP coordination.</li>
+                <li>Documented SOPs for safer and more consistent FWD operations.</li>
+              </ul>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-meta">2023 · MITCSN</div>
+              <h3>Research Scholar</h3>
+              <h4>MIT-Center for Analytical Research and Studies</h4>
+              <ul>
+                <li>Worked on aseptic procedures for handling sophisticated samples.</li>
+                <li>Collaborated with analysts and researchers across multiple sectors.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container projects-layout">
+          <div class="section-title reveal">
+            <span class="line"></span>
+            <p>Selected projects</p>
+          </div>
+
+          <div class="project-grid reveal">
+            <article class="project-card featured">
+              <div class="project-tag">Final year project · 2024</div>
+              <h3>Production of Biofertilizer Consortia and Economic Analysis</h3>
+              <p>
+                Researched microbial consortia using Rhizobium, Bacillus, and
+                Pseudomonas for nitrogen fixation, phosphate solubilization, stress
+                tolerance, and sustainable soil improvement.
+              </p>
+              <ul>
+                <li>Validated strong results in soil health and pH stabilization during field trials.</li>
+                <li>Highlighted salinity and alkaline tolerance for diverse soil conditions.</li>
+                <li>Positioned the study around eco-friendly nutrient cycling and soil fertility.</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <div class="project-tag">B.Tech project · 2023</div>
+              <h3>Automation System for Hydroponics Farming</h3>
+              <p>
+                Built an automated hydroponics system integrating IoT and sensors
+                for nutrient delivery, water management, and environmental control.
+              </p>
+              <ul>
+                <li>Runner-up at State-Level Aavishkar 2024 after winning institute and university levels.</li>
+                <li>Led cross-functional prototyping, testing, and implementation.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section showcase-strip">
+        <div class="container showcase-grid reveal">
+          <article class="showcase-note mustard">
+            <span class="showcase-kicker">Strength</span>
+            <h3>Innovation</h3>
+            <p>Known for designing process changes that improve output without adding avoidable complexity.</p>
+          </article>
+          <article class="showcase-note plum">
+            <span class="showcase-kicker">Strength</span>
+            <h3>Training</h3>
+            <p>Organized 5S, lean manufacturing, troubleshooting, and SOP-oriented training for operations teams.</p>
+          </article>
+          <article class="showcase-note plain">
+            <span class="showcase-kicker">Strength</span>
+            <h3>Project leadership</h3>
+            <p>Delivered machine installation, commissioning, and cross-functional improvements on schedule.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="research">
+        <div class="container research-grid">
+          <div class="section-title reveal">
+            <span class="line"></span>
+            <p>Patent &amp; publications</p>
+          </div>
+
+          <div class="research-content reveal">
+            <article class="research-card patent-card">
+              <span class="research-type">Patent</span>
+              <h3>A Biotech-Enhanced Seed Coating Device for Pest Resistance</h3>
+              <p class="research-meta">Design No. 457252-001 · 04/2025</p>
+              <p>
+                A seed coating device designed to reduce dependence on chemical
+                pesticides through biotech-based treatment, supporting healthier
+                crop outcomes and more sustainable farming practices.
+              </p>
+            </article>
+
+            <article class="research-card">
+              <span class="research-type">Publication</span>
+              <h3>Application of Robotics, Artificial Intelligence and Deep Learning in Modern Agriculture Technology: A Review</h3>
+              <p class="research-meta">International Journal of Plant &amp; Soil Science · 12/2023</p>
+              <p>
+                Review paper examining AI techniques and robotics across cultivation,
+                monitoring, and harvesting, with emphasis on research gaps and
+                intelligent agricultural systems.
+              </p>
+            </article>
+
+            <article class="research-card">
+              <span class="research-type">Publication</span>
+              <h3>Agricultural Extension in Post-COVID Era: Lessons Learned and Path Forward</h3>
+              <p class="research-meta">Archives of Current Research International · 05/2025</p>
+              <p>
+                Explores how agricultural extension shifted toward digital delivery
+                during and after the pandemic, especially in resource-constrained regions.
+              </p>
+            </article>
+
+            <article class="research-card">
+              <span class="research-type">Publication</span>
+              <h3>Nanotechnology in Plant Disease Management — Functional Roles of Nanoparticles in Pathogen Detection and Control</h3>
+              <p class="research-meta">Plant Cell Biotechnology and Molecular Biology · 06/2025</p>
+              <p>
+                Discusses metal-based nanoparticles, carbon materials, and polymers
+                for antimicrobial use, pathogen disruption, and plant immune support.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section education-section">
+        <div class="container education-grid">
+          <div class="section-title reveal">
+            <span class="line"></span>
+            <p>Education &amp; memberships</p>
+          </div>
+
+          <div class="education-content reveal">
+            <div class="edu-column">
+              <article class="edu-card">
+                <h3>B.Tech in Agricultural Engineering</h3>
+                <p>Maharashtra Institute of Technology Aurangabad</p>
+                <span>2021 — 2025 · CGPA 8.87 / 10</span>
+              </article>
+              <article class="edu-card">
+                <h3>Minor Degree in Data Science and Visualization</h3>
+                <p>Maharashtra Institute of Technology Aurangabad</p>
+                <span>2023 — Present</span>
+              </article>
+              <article class="edu-card">
+                <h3>Academic foundation</h3>
+                <p>HSC — 86.8% · SSC — 86.2%</p>
+                <span>Pune, India</span>
+              </article>
+            </div>
+
+            <div class="edu-column">
+              <article class="edu-card">
+                <h3>Indian Society of Agricultural Engineers</h3>
+                <p>Member</p>
+                <span>2023 — Present</span>
+              </article>
+              <article class="edu-card">
+                <h3>American Society of Agricultural and Biological Engineers</h3>
+                <p>Member</p>
+                <span>2024 — Present</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section" id="contact">
+      <div class="container footer-grid reveal">
+        <div>
+          <p class="eyebrow">Let’s connect</p>
+          <h2>Open to inventory, manufacturing, and operations-focused roles.</h2>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:prathamesh.jagtap@gmail.com">prathamesh.jagtap@gmail.com</a>
+          <a href="tel:+919890806114">+91 9890806114</a>
+          <a href="https://www.linkedin.com/in/prathamesh-jagtap-753776237/" target="_blank" rel="noreferrer">LinkedIn profile</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Prathamesh Jagtap</p>
+        <p>Built as a static GitHub Pages portfolio.</p>
+      </div>
+    </footer>
 
     <script src="assets/js/main.js"></script>
   </body>
