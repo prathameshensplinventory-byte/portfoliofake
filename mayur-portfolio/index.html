@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mayur Nikam | Cloud & DevOps Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Mayur Nikam — aspiring Cloud and DevOps Engineer skilled in AWS, Kubernetes, Docker, Ansible, Linux, and automation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="#home">MAYUR</a>
+        <nav class="nav" id="site-nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+      </header>
+
+      <main id="home">
+        <section class="hero grid-two">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Cloud · DevOps · Automation</p>
+            <h1>
+              Hi, I am <span>Mayur Nikam</span>, building secure cloud systems with a calm,
+              engineering-first mindset.
+            </h1>
+            <p class="lede">
+              B.Tech in Artificial Intelligence and Data Science with hands-on experience in AWS,
+              Kubernetes, Docker, Linux, and Ansible-based automation.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">See my work</a>
+              <a class="btn btn-secondary" href="mailto:mayurnikam266@gmail.com">Email me</a>
+            </div>
+            <div class="hero-links">
+              <a href="https://linkedin.com/in/mayur-nikam266" target="_blank" rel="noreferrer">LinkedIn</a>
+              <span>/</span>
+              <a href="https://github.com/mayurnikam266" target="_blank" rel="noreferrer">GitHub</a>
+              <span>/</span>
+              <a href="tel:+919096152945">Call</a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal delay-1" aria-hidden="true">
+            <div class="portrait-card portrait-main">
+              <div class="portrait-overlay"></div>
+              <div class="portrait-content">
+                <p>Cloud Engineer</p>
+                <h2>MN</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="intro-strip grid-two" id="about">
+          <div class="reveal">
+            <p class="section-tag">— My background</p>
+            <p class="muted-copy">
+              I enjoy designing reliable infrastructure and turning manual operational work into
+              clean, repeatable automation. My focus is on AWS deployments, Linux systems,
+              infrastructure hardening, observability, and practical DevOps workflows.
+            </p>
+          </div>
+
+          <div class="reveal delay-1">
+            <p class="section-tag">— Strengths</p>
+            <ul class="skill-list compact">
+              <li>AWS infrastructure</li>
+              <li>Linux administration</li>
+              <li>Infrastructure automation</li>
+              <li>Container platforms</li>
+              <li>Networking fundamentals</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="gallery-row reveal">
+          <article class="mini-card tilt-left">
+            <span class="mini-label">AWS</span>
+            <h3>Secure &amp; scalable setups</h3>
+          </article>
+          <article class="mini-card accent-card">
+            <span class="mini-label">Automation</span>
+            <h3>Ansible workflows that remove repetitive work</h3>
+          </article>
+          <article class="mini-card tilt-right">
+            <span class="mini-label">Containers</span>
+            <h3>Docker, Podman, Kubernetes</h3>
+          </article>
+        </section>
+
+        <section class="content-grid" id="skills">
+          <div class="left-rail reveal">
+            <p class="section-tag">— Technical skills</p>
+          </div>
+          <div class="right-content reveal delay-1">
+            <div class="skill-grid">
+              <article class="info-card">
+                <h3>Programming &amp; Scripting</h3>
+                <p>Python, Bash, SQL</p>
+              </article>
+              <article class="info-card">
+                <h3>Cloud Platforms</h3>
+                <p>AWS EC2, S3, CloudWatch, CloudTrail, IAM, EKS, RDS</p>
+              </article>
+              <article class="info-card">
+                <h3>DevOps Tooling</h3>
+                <p>Docker, Podman, Kubernetes, Ansible, Git, GitHub Actions, Jenkins basics</p>
+              </article>
+              <article class="info-card">
+                <h3>Operating Systems</h3>
+                <p>RHEL, Ubuntu, Windows</p>
+              </article>
+              <article class="info-card">
+                <h3>Networking</h3>
+                <p>TCP/IP, DNS, SSL/TLS</p>
+              </article>
+              <article class="info-card highlight-card">
+                <h3>Current direction</h3>
+                <p>Cloud security, platform reliability, observability, infrastructure as code</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-grid" id="projects">
+          <div class="left-rail reveal">
+            <p class="section-tag">— Selected projects</p>
+          </div>
+          <div class="right-content stack reveal delay-1">
+            <article class="project-card">
+              <div class="project-meta">Ansible · AWS EC2 · Linux · YAML</div>
+              <h3>Automated EC2 Virtual Machine Health Monitoring System</h3>
+              <p>
+                Built an automated health monitoring workflow using Ansible Dynamic Inventory for
+                EC2 discovery in a dev environment. The system checked CPU, RAM, and disk health,
+                generated clean HTML reports, and reduced manual server validation effort.
+              </p>
+              <ul>
+                <li>Automated EC2 instance discovery using tags and dynamic inventory</li>
+                <li>Generated HTML health reports for CPU, memory, and disk usage</li>
+                <li>Enabled zero-manual routine checks for cloud instances</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <div class="project-meta">VPC · Bastion Host · NAT Gateway · WordPress</div>
+              <h3>AWS Secure Multi-Tier Deployment with Bastion Host and NAT Gateway</h3>
+              <p>
+                Designed a secure AWS architecture for a WordPress deployment using public and
+                private subnets, a bastion host for controlled SSH access, and a NAT gateway for
+                outbound access from private resources.
+              </p>
+              <ul>
+                <li>Deployed WordPress on EC2 with Apache and PHP</li>
+                <li>Hosted MariaDB in a private subnet without public exposure</li>
+                <li>Configured route tables, security groups, and network isolation carefully</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-grid" id="experience">
+          <div class="left-rail reveal">
+            <p class="section-tag">— Experience</p>
+          </div>
+          <div class="right-content reveal delay-1">
+            <article class="timeline-item">
+              <h3>Red Hat Academy Student Ambassador</h3>
+              <p class="timeline-sub">MIT Aurangabad · Feb 2024 – Dec 2025</p>
+              <p>
+                Represented Red Hat Academy on campus, promoted Linux and open-source learning,
+                guided peers with RHEL setup, and helped run technical sessions related to DevOps
+                tooling and containers.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-grid" id="education">
+          <div class="left-rail reveal">
+            <p class="section-tag">— Education</p>
+          </div>
+          <div class="right-content stack reveal delay-1">
+            <article class="timeline-item">
+              <h3>Maharashtra Institute of Technology, Aurangabad</h3>
+              <p class="timeline-sub">B.Tech in AI &amp; Data Science · Graduation: 2026</p>
+              <p>CGPA: 8.45 / 10</p>
+            </article>
+            <article class="timeline-item">
+              <h3>Higher Secondary Certificate</h3>
+              <p class="timeline-sub">MH Board</p>
+              <p>80.83%</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-grid" id="certifications">
+          <div class="left-rail reveal">
+            <p class="section-tag">— Certifications</p>
+          </div>
+          <div class="right-content reveal delay-1">
+            <div class="cert-grid">
+              <article class="info-card">
+                <h3>RHCSA</h3>
+                <p>ID: 240-042-069</p>
+                <span>Red Hat Academy</span>
+              </article>
+              <article class="info-card">
+                <h3>RHCE</h3>
+                <p>ID: 240-042-069</p>
+                <span>Red Hat Academy</span>
+              </article>
+              <article class="info-card">
+                <h3>PCAP - Python Certification Course</h3>
+                <p>ID: 2D145B7D775E-2DECCB8C357A-2D14554A6710</p>
+                <span>KodeKloud</span>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-card reveal" id="contact">
+          <div>
+            <p class="section-tag">— Let’s connect</p>
+            <h2>Available for cloud, DevOps, and infrastructure roles.</h2>
+            <p>
+              Based in Chhatrapati Sambhaji Nagar, Maharashtra, India. Open to internships,
+              entry-level cloud roles, and practical engineering collaborations.
+            </p>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:mayurnikam266@gmail.com">mayurnikam266@gmail.com</a>
+            <a href="tel:+919096152945">+91 9096152945</a>
+            <a href="https://linkedin.com/in/mayur-nikam266" target="_blank" rel="noreferrer">linkedin.com/in/mayur-nikam266</a>
+            <a href="https://github.com/mayurnikam266" target="_blank" rel="noreferrer">github.com/mayurnikam266</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Mayur Nikam</p>
+        <p>Built as a static portfolio for GitHub Pages.</p>
+      </footer>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
